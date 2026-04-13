@@ -66,7 +66,7 @@ spec:
       - name: members
         description: Identities that will be granted the privilege in the role.
         varType: list(string)
-        required: true
+        defaultValue: []
       - name: condition
         description: An optional IAM Condition for the binding.
         varType: |-
@@ -94,11 +94,17 @@ spec:
     roles:
       - level: Project
         roles:
-          - roles/owner
+          - roles/iap.admin
+          - roles/resourcemanager.projectIamAdmin
     services:
       - cloudresourcemanager.googleapis.com
       - storage-api.googleapis.com
       - serviceusage.googleapis.com
+      - iam.googleapis.com
+      - agentregistry.googleapis.com
+      - aiplatform.googleapis.com
+      - apphub.googleapis.com
+      - iap.googleapis.com
     providerVersions:
       - source: hashicorp/google-nightly
         version: 0.1.0.25.0

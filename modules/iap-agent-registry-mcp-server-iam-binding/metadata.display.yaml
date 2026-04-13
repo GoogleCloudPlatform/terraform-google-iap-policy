@@ -53,4 +53,3 @@ spec:
       outputs:
         iap_policy_id:
           visibility: VISIBILITY_ROOT
-

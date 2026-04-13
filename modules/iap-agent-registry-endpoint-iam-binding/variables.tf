@@ -37,6 +37,7 @@ variable "role" {
 variable "members" {
   type        = list(string)
   description = "Identities that will be granted the privilege in the role."
+  default     = []
 }
 
 variable "condition" {
