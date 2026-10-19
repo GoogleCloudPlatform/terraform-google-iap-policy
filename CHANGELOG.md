@@ -8,6 +8,18 @@ and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 This changelog is generated automatically based on [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/).
 
+## [0.1.2](https://github.com/GoogleCloudPlatform/terraform-google-iap-policy/compare/v0.1.1...v0.1.2) (2026-10-19)
+
+
+### Bug Fixes
+
+* populate null defaultValue in iap-agent-registry-agent-iam-binding blueprint metadata ([d96ce92](https://github.com/GoogleCloudPlatform/terraform-google-iap-policy/commit/d96ce92bb4cdf6e4becf945cd23db9b8af7465cb))
+* populate null defaultValue in iap-agent-registry-agent-iam-binding blueprint metadata ([00844a8](https://github.com/GoogleCloudPlatform/terraform-google-iap-policy/commit/00844a8e7a4fdd0de425755ba0e845e341a6e9af))
+* populate null defaultValue in iap-agent-registry-endpoint-iam-binding blueprint metadata ([d15ee09](https://github.com/GoogleCloudPlatform/terraform-google-iap-policy/commit/d15ee094ee11c33903b2c356aec2d9a45cefaa7f))
+* populate null defaultValue in iap-agent-registry-endpoint-iam-binding blueprint metadata ([49d1150](https://github.com/GoogleCloudPlatform/terraform-google-iap-policy/commit/49d115053055806a68c006882733cc70df474538))
+* populate null defaultValue in iap-agent-registry-mcp-server-iam-binding blueprint metadata ([ca42322](https://github.com/GoogleCloudPlatform/terraform-google-iap-policy/commit/ca4232277d5901decec74ba849db3e554dab0ab0))
+* populate null defaultValue in iap-agent-registry-mcp-server-iam-binding blueprint metadata ([98932e2](https://github.com/GoogleCloudPlatform/terraform-google-iap-policy/commit/98932e27eb62f29aa3b0a753085c600e86b8c04b))
+
 ## [0.1.1](https://github.com/GoogleCloudPlatform/terraform-google-iap-policy/compare/v0.1.0...v0.1.1) (2026-04-13)
 
 
