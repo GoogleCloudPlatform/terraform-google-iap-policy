@@ -75,6 +75,7 @@ spec:
               description = optional(string)
               expression  = string
             })
+        defaultValue: null
       - name: agent_engine_effective_ids
         description: List of Reasoning Engine effective identities to be dynamically formatted and added to the IAM binding members.
         varType: list(string)
