@@ -4,7 +4,7 @@ go 1.24.13
 
 require (
 	github.com/GoogleCloudPlatform/cloud-foundation-toolkit/infra/blueprint-test v0.18.0
-	github.com/stretchr/testify v1.11.1
+	github.com/stretchr/testify v1.12.1
 )
 
 require (
@@ -48,7 +48,7 @@ require (
 	github.com/ulikunitz/xz v0.5.14 // indirect
 	github.com/zclconf/go-cty v1.16.4 // indirect
 	go.yaml.in/yaml/v2 v2.4.2 // indirect
-	go.yaml.in/yaml/v3 v3.0.4 // indirect
+	go.yaml.in/yaml/v3 v3.0.5 // indirect
 	golang.org/x/crypto v0.45.0 // indirect
 	golang.org/x/mod v0.31.0 // indirect
 	golang.org/x/net v0.47.0 // indirect
